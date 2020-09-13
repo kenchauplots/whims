@@ -46,3 +46,4 @@ rm ca-2020-pm25.mp4;
 
 # open final video-final
 # xdg-open ca-2020-fires-pm25.mp4;
+# ffmpeg -i ca-2020-fires-pm25.mp4 -vf "select=eq(n\,380)" -vframes 1 -y ca-2020-fires-pm25-demo.png;
